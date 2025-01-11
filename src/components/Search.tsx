@@ -25,8 +25,6 @@ const Search = () => {
     []
   );
 
-  console.log(isPending);
-
   return (
     <div className="flex">
       <div className="flex gap-2 h-8 px-2 items-center border border-gray-300 rounded-md">
@@ -37,7 +35,7 @@ const Search = () => {
         )}
         <input
           type="search"
-          placeholder="search..."
+          placeholder="search by country..."
           onChange={handleChange}
           defaultValue={searchParams.get("country") || ""}
           className="border-none outline-none"
