@@ -19,3 +19,30 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+thead {
+  background: lightgray;
+  position: sticky;
+  top: 0;
+}
+
+tr {
+  border-bottom: 1px solid lightgray;
+}
+
+th,
+td {
+  padding: 6px;
+  text-align: left;
+}
+
+.list-container {
+  max-height: calc(100vh - 80px);
+  position: absolute;
+  width: 100%;
+}

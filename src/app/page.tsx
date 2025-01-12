@@ -1,4 +1,5 @@
 import Search from "@/components/Search";
+import UniversityListSkeleton from "@/components/skeletons/UniversityListSkeleton";
 import UniversityList from "@/components/UniversityList";
 import { get } from "@/http/fetch";
 import { University } from "@/types/entities";
@@ -19,12 +20,12 @@ export default async function Home({ searchParams }: PageProps) {
 
   return (
     <div className="m-5">
-      <div className="">
-        <Search />
-        <Suspense fallback={<div>Loading countries...</div>}>
-          <UniversityList resPromise={res} />
-        </Suspense>
+      <div className="mb-5">
+        <Search searchParam="country" />
       </div>
+      <Suspense fallback={<UniversityListSkeleton />}>
+        <UniversityList resPromise={res} />
+      </Suspense>
     </div>
   );
 }

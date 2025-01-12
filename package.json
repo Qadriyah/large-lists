@@ -9,10 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tanstack/react-table": "^8.20.6",
+    "@tanstack/react-virtual": "^3.11.2",
+    "clsx": "^2.1.1",
     "lodash": "^4.17.21",
     "next": "15.1.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^2.6.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
