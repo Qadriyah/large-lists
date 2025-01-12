@@ -39,6 +39,7 @@ const Search = ({ searchParam }: IProps) => {
         )}
         <input
           type="search"
+          name="search"
           placeholder={`search by ${searchParam} ...`}
           onChange={handleChange}
           defaultValue={searchParams.get(searchParam) || ""}
