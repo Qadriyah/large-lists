@@ -2,23 +2,27 @@
 "use client";
 import { debounce } from "lodash";
 import { useRouter, useSearchParams } from "next/navigation";
-import React, { useTransition } from "react";
+import { ChangeEvent, useCallback, useTransition } from "react";
 import SearchIcon from "./SearchIcon";
 import Spinner from "./Spinner";
 
-const Search = () => {
+type IProps = {
+  searchParam: string;
+};
+
+const Search = ({ searchParam }: IProps) => {
   const searchParams = useSearchParams();
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
 
-  const handleChange = React.useCallback(
-    debounce((event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = useCallback(
+    debounce((event: ChangeEvent<HTMLInputElement>) => {
       const { value } = event.target;
       const newSearchParams = new URLSearchParams(searchParams.toString());
       if (!value) {
-        newSearchParams.delete("country");
+        newSearchParams.delete(searchParam);
       } else {
-        newSearchParams.set("country", event.target.value);
+        newSearchParams.set(searchParam, event.target.value);
       }
       startTransition(() => router.push(`?${newSearchParams.toString()}`));
     }, 500),
@@ -35,9 +39,9 @@ const Search = () => {
         )}
         <input
           type="search"
-          placeholder="search by country..."
+          placeholder={`search by ${searchParam} ...`}
           onChange={handleChange}
-          defaultValue={searchParams.get("country") || ""}
+          defaultValue={searchParams.get(searchParam) || ""}
           className="border-none outline-none"
         />
       </div>
