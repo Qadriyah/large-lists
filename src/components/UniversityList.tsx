@@ -20,13 +20,19 @@ const UniversityList = ({ resPromise }: IProps) => {
           </tr>
         </thead>
         <tbody>
-          {data?.map((university, index) => (
-            <tr key={index}>
-              <td>{university.name}</td>
-              <td>{university.country}</td>
-              <td>{university.web_pages.join(", ")}</td>
+          {data.length > 0 ? (
+            data.map((university, index) => (
+              <tr key={index}>
+                <td>{university.name}</td>
+                <td>{university.country}</td>
+                <td>{university.web_pages.join(", ")}</td>
+              </tr>
+            ))
+          ) : (
+            <tr>
+              <td colSpan={3}>No data to display</td>
             </tr>
-          ))}
+          )}
         </tbody>
       </table>
     </div>
