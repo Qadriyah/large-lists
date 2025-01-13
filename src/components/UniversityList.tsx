@@ -1,4 +1,3 @@
-"use client";
 import { University } from "@/types/entities";
 import { use } from "react";
 
