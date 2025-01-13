@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Bugema University",
+    "domains": ["bugemauniv.ac.ug"],
+    "web_pages": ["https://bugemauniv.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": "Luweero"
+  },
+  {
+    "name": "Busitema University",
+    "domains": ["busitema.ac.ug"],
+    "web_pages": ["http://www.busitema.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "Busoga University",
+    "domains": ["busogauniversity.ac.ug"],
+    "web_pages": ["http://www.busogauniversity.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "Central Buganda University",
+    "domains": ["cbu2000.com"],
+    "web_pages": ["http://www.cbu2000.com/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "Gulu University",
+    "domains": ["gu.ac.ug"],
+    "web_pages": ["http://www.gu.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "Islamic University in Uganda",
+    "domains": ["iuiu.ac.ug"],
+    "web_pages": ["http://www.iuiu.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "Kampala International University",
+    "domains": ["kiu.ac.ug"],
+    "web_pages": ["http://www.kiu.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "Kampala University",
+    "domains": ["ku.ac.ug"],
+    "web_pages": ["http://www.ku.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "Kyambogo University",
+    "domains": ["kyu.ac.ug"],
+    "web_pages": ["http://www.kyu.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "Makerere University",
+    "domains": ["mak.ac.ug"],
+    "web_pages": ["http://www.mak.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "Mountains of the Moon University",
+    "domains": ["mmu.ac.ug"],
+    "web_pages": ["http://www.mmu.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "Mutesa 1 Royal University",
+    "domains": ["mru.ac.ug"],
+    "web_pages": ["http://www.mru.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "Mbarara University of Science and Technology",
+    "domains": ["must.ac.ug"],
+    "web_pages": ["http://www.must.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "Ndejje University",
+    "domains": ["ndejjeuniversity.ac.ug"],
+    "web_pages": ["http://www.ndejjeuniversity.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "Nkumba University",
+    "domains": ["nkumbauniversity.ac.ug"],
+    "web_pages": ["http://www.nkumbauniversity.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "St. Augustine International University",
+    "domains": ["saiu.ac.ug"],
+    "web_pages": ["http://www.saiu.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "Uganda Christian University",
+    "domains": ["ucu.ac.ug"],
+    "web_pages": ["http://www.ucu.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  },
+  {
+    "name": "Uganda Martyr's University",
+    "domains": ["umu.ac.ug"],
+    "web_pages": ["http://www.umu.ac.ug/"],
+    "alpha_two_code": "UG",
+    "country": "Uganda",
+    "state-province": ""
+  }
+]
